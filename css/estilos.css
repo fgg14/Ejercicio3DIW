@@ -1,0 +1,395 @@
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url("SourceSans3-Medium.ttf");
+}
+
+h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  font-family: 'Source Sans 3';
+}
+
+nav{
+  color: #000000;
+  font-weight: bold;
+}
+
+li a:hover, h1 img:hover{
+    color: #000000;
+    opacity: 0.5;
+}
+
+nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav li a:hover{
+  color: rgb(0, 0, 0, 0.5);
+}
+
+footer a, .copyright{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: rgb(222, 35, 51);
+}
+
+footer ul img:hover{
+  opacity: 0.7;
+}
+
+article a{
+  color: rgb(222, 35, 51);
+  text-decoration: none;
+}
+
+article a:hover{
+  color: rgb(0, 0, 0);
+}
+
+/*index, los footers y el nav*/
+footer{
+  background-color: #000000;
+  text-align: center;
+  padding-top: 5px;
+}
+
+nav ul{
+  list-style: none;
+  text-align: center;
+}
+
+.redes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#noticias-y-recursos{
+  background-image: url("../img/bg-hero-home-m.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  color: #FFFFFF;
+  height: 250px;
+  text-align: center;
+}
+
+article, h2{
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+article p{
+  text-align: left;
+}
+
+article img{
+  width: 250px;
+  height: 250px;
+}
+
+.leer{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: end;
+}
+
+article h3, .pag-actual-breadcrumb{
+  color: rgb(222, 35, 51);
+}
+
+#noticias-y-recursos > h2{
+  padding-top: 105px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.pag-actual{
+  color: rgb(222, 35, 51);
+}
+
+/*Aplicaciones IA*/
+
+.aplicaciones-ia{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 45px;
+}
+
+.aplicaciones-ia > h2{
+  padding-left: 65px;
+  padding-right: 60px;
+}
+
+.aplicaciones{
+  background-color: #F4F6F7;
+  padding: 25px;
+  margin: 15px;
+}
+
+.aplicaciones a{
+  color: rgb(222, 35, 51);
+  text-decoration: none;
+}
+
+.aplicaciones a:hover{
+  color: rgb(0, 0, 0);
+}
+
+/*Cine IA*/
+.cine-ia{
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.cine-ia > h2{
+  font-size: 2.3rem;
+}
+
+iframe{
+  width: 450px;
+  height: 250px;
+}
+
+/*Noticia*/
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 25px;
+  padding: 0;
+  align-items: end;
+}
+
+.breadcrumb ul>li>a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+  
+.breadcrumb li:not(:last-child)::after{
+  display: inline-block;
+  margin: 0 0.25rem;
+  content: ">";
+}
+
+.portada-articulo img{
+  width: 450px;
+  height: 200px;
+}
+
+.titulo-desp-42{
+  color: #000000;
+  font-size: 1.8rem;
+}
+
+.titulo-desp-42,h4{
+  font-size: 1.65rem;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.descripcion-capitulo small a{
+  text-align: left;
+}
+
+.img-desp42{
+  border-radius: 25px;
+  width: 90px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.que-es-despacho-42{
+  margin-left: 45px;
+  margin-right: 45px;
+  background-color: #F4F6F7;
+}
+
+#despacho-titulo{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#enlaces-ep{
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.enlaces-escuchar{
+  margin-bottom: 85px;
+  list-style: "> ";
+  color: #DE2333;
+}
+
+.enlaces-escuchar a{
+  text-decoration: none;
+  color: #DE2333;
+}
+
+.deja-un-comentario{
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.titulo-formulario{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+.env-form{
+  background-color: #DE2333;
+  padding: 5px;
+  color: #F4F6F7;
+}
+
+aside{
+  margin-top: 35px;
+}
+
+aside img{
+  border-radius: 220px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+aside h2{
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+aside div{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 10px;
+}
+
+/*  MEDIDAS EXCLUSIVAS TABLET (dimensiones iPad Air) */
+@media screen and (min-width: 820px) and (max-width: 1180px){
+  /*index, los footers y el nav*/
+  .al-dia{
+    display: flex;
+    flex-direction: row;
+    /*Me ocupa más de los px de la tablet*/
+  }
+
+  #noticias-y-recursos > h2{
+    font-size: 2.75rem;
+    font-weight: normal;
+  }
+  /*Aplicaciones IA*/
+  .aplicaciones-ia{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+/* MEDIDAS EXCLUSIVAS ORDENADOR */
+@media only screen and (min-width: 1181px){
+  /*index, los footers y el nav*/
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 55px;
+  }
+  .politicas{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .politicas > li{
+    margin-right: 15px;
+  }
+
+  .al-dia{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wrapper{
+    margin: 5px 65px 55px 65px;
+  }
+
+  #noticias-y-recursos > h2{
+    font-size: 2.75rem;
+    font-weight: normal;
+  }
+  /*Aplicaciones IA*/
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
+
+  header h1{
+    margin-left: 25px;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul > li{
+    margin-right: 15px;
+  }
+
+  .aplicaciones-ia{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+  }
+  /*Cine IA*/
+  .wrapper-pelis{
+  display:grid;
+  grid-template-columns: 450px 270px;
+  /*grid-template-columns: 600px 450px;*/
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  }
+
+  .cine-ia{
+    margin-left: 200px;
+  }
+  /*Noticia*/
+  .header-despacho, .despacho-42, aside, .footer-despacho{
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .wrapper-despacho{
+    display: table;
+    width: 100%;
+  }
+  .portada-articulo, .descripcion-capitulo, .que-es-despacho-42, .deja-un-comentario{
+    float: left;
+    width: 60%;
+  }
+
+  .titulo-desp-42{
+    display: flex;
+    align-items: flex-start;
+  }
+}
